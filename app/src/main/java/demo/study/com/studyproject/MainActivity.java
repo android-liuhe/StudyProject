@@ -6,12 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import demo.study.com.studyproject.materialdesign.MaterialDesignMainActivity;
 import demo.study.com.studyproject.recycleview.RecycleViewActivity;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
     /*  RecycleViewActivity */
     private Button btStartRecycle;
+    /*  MaterialDesign */
+    private Button btStartMaterialDesign;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +27,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private void initView() {
 
         btStartRecycle = findViewById(R.id.start_recycle);
+        btStartMaterialDesign = findViewById(R.id.start_marterial);
 
         btStartRecycle.setOnClickListener(this);
+        btStartMaterialDesign.setOnClickListener(this);
 
     }
 
@@ -34,8 +39,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         switch (view.getId()) {
             case R.id.start_recycle:
-                Intent intent = new Intent(MainActivity.this, RecycleViewActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(MainActivity.this, RecycleViewActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.start_marterial:
+                Intent intent2 = new Intent(MainActivity.this, MaterialDesignMainActivity.class);
+                startActivity(intent2);
                 break;
             default:
                 break;

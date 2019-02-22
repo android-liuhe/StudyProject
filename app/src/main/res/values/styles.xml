@@ -5,4 +5,8 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="HintTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">#16e408</item>
+    </style>
+
 </resources>

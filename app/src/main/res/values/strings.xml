@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">StudyProject</string>
     <string name="recyeleview">RecyeleView</string>
+    <string name="material_design">Material Design</string>
+    <string name="snackbar">SnackBar</string>
+    <string name="text_input_layput">TextInputlayput</string>
+    <string name="show_snackbar">Show SnackBar</string>
+    <string name="user_name">User Name</string>
+    <string name="password">PassWord</string>
+    <string name="textinputlayout_login">TextInputLayout Login</string>
+    <string name="edittext_login">EditText Login</string>
+
 </resources>

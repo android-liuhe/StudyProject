@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".recycleview.RecycleViewActivity"/>
+        <activity android:name=".recycleview.RecycleViewActivity" />
+        <activity android:name=".materialdesign.MaterialDesignMainActivity" />
+        <activity
+            android:name=".materialdesign.SnackBarActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".materialdesign.TextInputLayoutActivity"
+            android:theme="@style/HintTheme" />
     </application>
 
 </manifest>

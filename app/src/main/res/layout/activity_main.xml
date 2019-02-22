@@ -13,4 +13,10 @@
         android:layout_height="wrap_content"
         android:text="@string/recyeleview"/>
 
+    <Button
+        android:id="@+id/start_marterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/material_design"/>
+
 </LinearLayout>
