@@ -24,6 +24,7 @@
         <activity
             android:name=".materialdesign.TextInputLayoutActivity"
             android:theme="@style/HintTheme" />
+        <activity android:name=".notification.NotificationActivity"/>
     </application>
 
 </manifest>

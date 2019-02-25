@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="demo.study.com.studyproject.MainActivity">
+    android:orientation="vertical">
 
     <Button
-        android:id="@+id/start_recycle"
+        android:id="@+id/bt_normal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/recyeleview"/>
+        android:text="普通型"/>
 
     <Button
-        android:id="@+id/start_marterial"
+        android:id="@+id/bt_fold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/material_design"/>
+        android:text="折叠型"/>
 
     <Button
-        android:id="@+id/bt_notification"
+        android:id="@+id/bt_suspension"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/notification"/>
+        android:text="悬挂型"/>
 
 </LinearLayout>
