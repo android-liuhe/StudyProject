@@ -10,5 +10,6 @@
     <string name="textinputlayout_login">TextInputLayout Login</string>
     <string name="edittext_login">EditText Login</string>
     <string name="notification">Notification</string>
+    <string name="view">View</string>
 
 </resources>

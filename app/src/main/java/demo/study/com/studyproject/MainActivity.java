@@ -9,6 +9,7 @@ import android.widget.Button;
 import demo.study.com.studyproject.materialdesign.MaterialDesignMainActivity;
 import demo.study.com.studyproject.notification.NotificationActivity;
 import demo.study.com.studyproject.recycleview.RecycleViewActivity;
+import demo.study.com.studyproject.view.ViewMoveActivity;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -18,6 +19,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button btStartMaterialDesign;
     /*  Notiffication */
     private Button btNotification;
+    /*  View相关 */
+    private Button btView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,10 +35,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btStartRecycle = findViewById(R.id.start_recycle);
         btStartMaterialDesign = findViewById(R.id.start_marterial);
         btNotification = findViewById(R.id.bt_notification);
+        btView = findViewById(R.id.bt_view);
 
         btStartRecycle.setOnClickListener(this);
         btStartMaterialDesign.setOnClickListener(this);
         btNotification.setOnClickListener(this);
+        btView.setOnClickListener(this);
 
     }
 
@@ -54,6 +59,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.bt_notification:
                 Intent intent3 = new Intent(MainActivity.this, NotificationActivity.class);
                 startActivity(intent3);
+            case R.id.bt_view:
+                Intent intent4 = new Intent(MainActivity.this, ViewMoveActivity.class);
+                startActivity(intent4);
+                break;
             default:
                 break;
         }
