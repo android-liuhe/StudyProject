@@ -24,7 +24,11 @@
         <activity
             android:name=".materialdesign.TextInputLayoutActivity"
             android:theme="@style/HintTheme" />
-        <activity android:name=".notification.NotificationActivity"/>
+        <activity android:name=".notification.NotificationActivity" />
+        <activity android:name=".view.ViewMoveActivity" />
+        <activity android:name=".design.DesignPatternsActivity" />
+        <activity android:name=".design.factory.Client" />
+        <activity android:name=".design.factory.abstractfactory.Client"/>
     </application>
 
 </manifest>
