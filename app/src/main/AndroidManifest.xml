@@ -29,6 +29,7 @@
         <activity android:name=".design.DesignPatternsActivity" />
         <activity android:name=".design.factory.Client" />
         <activity android:name=".design.factory.abstractfactory.Client"/>
+        <activity android:name=".design.build.CreateComputer"/>
     </application>
 
 </manifest>
