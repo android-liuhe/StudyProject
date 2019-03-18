@@ -11,5 +11,6 @@
     <string name="edittext_login">EditText Login</string>
     <string name="notification">Notification</string>
     <string name="view">View</string>
+    <string name="view_dispatch">View的事件分发</string>
 
 </resources>

@@ -30,6 +30,7 @@
         <activity android:name=".design.factory.Client" />
         <activity android:name=".design.factory.abstractfactory.Client"/>
         <activity android:name=".design.build.CreateComputer"/>
+        <activity android:name=".view.dispath.ViewDispathActivity"/>
     </application>
 
 </manifest>

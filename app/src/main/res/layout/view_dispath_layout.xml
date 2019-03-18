@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<demo.study.com.studyproject.view.dispath.CustomeGroupView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custome_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <demo.study.com.studyproject.view.dispath.CustomeDispathView
+        android:id="@+id/custome_view"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:background="#fa0101" />
+
+</demo.study.com.studyproject.view.dispath.CustomeGroupView>

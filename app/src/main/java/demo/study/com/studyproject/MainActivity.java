@@ -10,6 +10,7 @@ import demo.study.com.studyproject.materialdesign.MaterialDesignMainActivity;
 import demo.study.com.studyproject.notification.NotificationActivity;
 import demo.study.com.studyproject.recycleview.RecycleViewActivity;
 import demo.study.com.studyproject.view.ViewMoveActivity;
+import demo.study.com.studyproject.view.dispath.ViewDispathActivity;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -21,6 +22,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button btNotification;
     /*  View相关 */
     private Button btView;
+    /*  View事件分发 */
+    private Button btViewDispatch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,11 +39,13 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btStartMaterialDesign = findViewById(R.id.start_marterial);
         btNotification = findViewById(R.id.bt_notification);
         btView = findViewById(R.id.bt_view);
+        btViewDispatch = findViewById(R.id.bt_view_dispatch);
 
         btStartRecycle.setOnClickListener(this);
         btStartMaterialDesign.setOnClickListener(this);
         btNotification.setOnClickListener(this);
         btView.setOnClickListener(this);
+        btViewDispatch.setOnClickListener(this);
 
     }
 
@@ -62,6 +67,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.bt_view:
                 Intent intent4 = new Intent(MainActivity.this, ViewMoveActivity.class);
                 startActivity(intent4);
+                break;
+            case R.id.bt_view_dispatch:
+                Intent intent5 = new Intent(MainActivity.this, ViewDispathActivity.class);
+                startActivity(intent5);
                 break;
             default:
                 break;

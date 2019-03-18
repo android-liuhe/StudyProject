@@ -31,4 +31,9 @@
         android:layout_height="wrap_content"
         android:text="@string/view"/>
 
+    <Button
+        android:id="@+id/bt_view_dispatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_dispatch"/>
 </LinearLayout>
