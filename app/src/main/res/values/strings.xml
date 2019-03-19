@@ -12,5 +12,7 @@
     <string name="notification">Notification</string>
     <string name="view">View</string>
     <string name="view_dispatch">View的事件分发</string>
+    <string name="sliding_one">滑动冲突场景1-外部拦截</string>
+    <string name="sliding_two">滑动冲突场景1-内部拦截</string>
 
 </resources>

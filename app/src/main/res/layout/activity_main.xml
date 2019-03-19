@@ -11,29 +11,42 @@
         android:id="@+id/start_recycle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/recyeleview"/>
+        android:text="@string/recyeleview" />
 
     <Button
         android:id="@+id/start_marterial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/material_design"/>
+        android:text="@string/material_design" />
 
     <Button
         android:id="@+id/bt_notification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/notification"/>
+        android:text="@string/notification" />
 
     <Button
         android:id="@+id/bt_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/view"/>
+        android:text="@string/view" />
 
     <Button
         android:id="@+id/bt_view_dispatch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/view_dispatch"/>
+        android:text="@string/view_dispatch" />
+
+    <Button
+        android:id="@+id/bt_sliding_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sliding_one" />
+
+    <Button
+        android:id="@+id/bt_sliding_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sliding_two" />
+
 </LinearLayout>

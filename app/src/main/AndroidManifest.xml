@@ -31,6 +31,8 @@
         <activity android:name=".design.factory.abstractfactory.Client"/>
         <activity android:name=".design.build.CreateComputer"/>
         <activity android:name=".view.dispath.ViewDispathActivity"/>
+        <activity android:name=".view.sliding.DemoActivity_1"/>
+        <activity android:name=".view.sliding.DemoActivity_2"/>
     </application>
 
 </manifest>

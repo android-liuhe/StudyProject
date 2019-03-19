@@ -11,6 +11,8 @@ import demo.study.com.studyproject.notification.NotificationActivity;
 import demo.study.com.studyproject.recycleview.RecycleViewActivity;
 import demo.study.com.studyproject.view.ViewMoveActivity;
 import demo.study.com.studyproject.view.dispath.ViewDispathActivity;
+import demo.study.com.studyproject.view.sliding.DemoActivity_1;
+import demo.study.com.studyproject.view.sliding.DemoActivity_2;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
@@ -24,6 +26,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button btView;
     /*  View事件分发 */
     private Button btViewDispatch;
+    /*  外部解决滑动冲突 */
+    private Button btSlidingOne;
+    /*  内部解决滑动冲突 */
+    private Button btSlidingTwo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,12 +46,16 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btNotification = findViewById(R.id.bt_notification);
         btView = findViewById(R.id.bt_view);
         btViewDispatch = findViewById(R.id.bt_view_dispatch);
+        btSlidingOne = findViewById(R.id.bt_sliding_one);
+        btSlidingTwo = findViewById(R.id.bt_sliding_two);
 
         btStartRecycle.setOnClickListener(this);
         btStartMaterialDesign.setOnClickListener(this);
         btNotification.setOnClickListener(this);
         btView.setOnClickListener(this);
         btViewDispatch.setOnClickListener(this);
+        btSlidingOne.setOnClickListener(this);
+        btSlidingTwo.setOnClickListener(this);
 
     }
 
@@ -71,6 +81,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.bt_view_dispatch:
                 Intent intent5 = new Intent(MainActivity.this, ViewDispathActivity.class);
                 startActivity(intent5);
+                break;
+            case R.id.bt_sliding_one:
+                Intent intent6 = new Intent(MainActivity.this, DemoActivity_1.class);
+                startActivity(intent6);
+                break;
+            case R.id.bt_sliding_two:
+                Intent intent7 = new Intent(MainActivity.this, DemoActivity_2.class);
+                startActivity(intent7);
                 break;
             default:
                 break;
